@@ -12,7 +12,7 @@ function component() {
     ["A Webpack basic configuration exercise.", "(Div created in index.js)"],
     " "
   );
-  btn.innerHTML = "Click me and check the console!";
+  btn.innerHTML = "Click to run a function from event.js file";
   btn.onclick = runOnClick;
 
   element.appendChild(paragraph);
