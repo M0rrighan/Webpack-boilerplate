@@ -1,0 +1,30 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Exercise on setting up a project with webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0rrighan/Webpack-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M0rrighan/Webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/M0rrighan/Webpack-boilerplate#readme",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
