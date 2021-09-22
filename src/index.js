@@ -1,9 +1,9 @@
-import runOnClick from "./event.js";
-import "./style.css";
+import runOnClick from './event.js';
+import './style.css';
 
 function component() {
-  const element = document.querySelector("h1");
-  element.innerText = "A Webpack basic configuration exercise";
+  const element = document.querySelector('h1');
+  element.innerText = 'A Webpack basic configuration exercise';
 
   return element;
 }
@@ -11,8 +11,8 @@ function component() {
 component();
 
 function button() {
-  const btn = document.createElement("button");
-  btn.innerHTML = "Click to run a function from event.js file";
+  const btn = document.createElement('button');
+  btn.innerHTML = 'Click to run a function from event.js file';
   btn.onclick = runOnClick;
   return btn;
 }
