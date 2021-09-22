@@ -10,7 +10,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ runOnClick)
 /* harmony export */ });
 function runOnClick() {
-  console.log("function in event.js called on click...");
+  console.log('function in event.js called on click');
 }
 
 
@@ -531,13 +531,12 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _event_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
-//import _ from "lodash";
 
 
 
 function component() {
-  const element = document.querySelector("h1");
-  element.innerText = "A Webpack basic configuration exercise";
+  const element = document.querySelector('h1');
+  element.innerText = 'A Webpack basic configuration exercise';
 
   return element;
 }
@@ -545,8 +544,8 @@ function component() {
 component();
 
 function button() {
-  const btn = document.createElement("button");
-  btn.innerHTML = "Click to run a function from event.js file";
+  const btn = document.createElement('button');
+  btn.innerHTML = 'Click to run a function from event.js file';
   btn.onclick = _event_js__WEBPACK_IMPORTED_MODULE_0__["default"];
   return btn;
 }
