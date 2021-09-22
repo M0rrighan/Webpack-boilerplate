@@ -10,7 +10,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ runOnClick)
 /* harmony export */ });
 function runOnClick() {
-  console.log('function in event.js called on click');
+  console.log('function in event.js called on click.');
 }
 
 
