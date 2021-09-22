@@ -1,14 +1,13 @@
+//const { trim } = require("lodash");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
-  entry: {
-    index: "./src/index.js",
-    event: "./src/event.js",
-  },
+  mode: "none",
+  entry: "./src/index.js",
   devtool: false,
   devServer: {
+    port: 8080,
     static: "./dist",
   },
   plugins: [
@@ -17,7 +16,7 @@ module.exports = {
     }),
   ],
   output: {
-    filename: "[name].bundle.js",
+    filename: "main.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
