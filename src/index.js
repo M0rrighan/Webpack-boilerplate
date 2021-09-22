@@ -1,4 +1,3 @@
-//import _ from "lodash";
 import runOnClick from "./event.js";
 import "./style.css";
 
